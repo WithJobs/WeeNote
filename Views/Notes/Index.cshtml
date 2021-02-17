@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WeeNote.Models.Note>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table" border="0">
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr style="border: hidden">
+            <td>@Html.DisplayFor(modelItem => item.NoteTitle)</td>
+            <td class="btn btn-primary">
+                @Html.DisplayFor(modelItem => item.Tag)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+
+        </tr>
+    <td style="border: hidden">✎ @Html.DisplayFor(modelItem => item.NoteText)<p><p><p><p><p><p></td>
+
+
+
+        }
+    </tbody>
+    </table>
+<p>
+    <a asp-action="Create">Add one more</a>
+</p>

@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the WeeNote application</h1>
+    <p><a href="https://docs.microsoft.com/aspnet/core">Consider supporting if you want to see more</a>.</p>
+    <p>and have fun</p>
+
+    <form asp-action="Create">
+        <a asp-controller="Notes" asp-action="Create" class="btn-dark">MAKE A NOTE</a>
+    </form>
+    <form asp-action="Index">
+        <a asp-controller="Notes" asp-action="Index" class="btn-dark">watch your notes</a>
+    </form>
+    <form asp-action="Searching">
+        <a asp-controller="Notes" asp-action="Searching" class="btn-dark">search for note</a>
+    </form>
+</div>
