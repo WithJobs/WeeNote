@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\c# scripts\\weenote\\WeeNote\\WeeNote.csproj": {}
+    "F:\\PROGRAMS\\Git Hub\\WeeNote\\WeeNote.csproj": {}
   },
   "projects": {
-    "D:\\c# scripts\\weenote\\WeeNote\\WeeNote.csproj": {
+    "F:\\PROGRAMS\\Git Hub\\WeeNote\\WeeNote.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c# scripts\\weenote\\WeeNote\\WeeNote.csproj",
+        "projectUniqueName": "F:\\PROGRAMS\\Git Hub\\WeeNote\\WeeNote.csproj",
         "projectName": "WeeNote",
-        "projectPath": "D:\\c# scripts\\weenote\\WeeNote\\WeeNote.csproj",
+        "projectPath": "F:\\PROGRAMS\\Git Hub\\WeeNote\\WeeNote.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\c# scripts\\weenote\\WeeNote\\obj\\",
+        "outputPath": "F:\\PROGRAMS\\Git Hub\\WeeNote\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
